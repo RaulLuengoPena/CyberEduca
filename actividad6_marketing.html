@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberEduca - Actividad 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #0a74da;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CyberEduca</h1>
+        <p>Actividad 6: Política de Precios</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <div class="dropdown">
+            <a href="#">Marketing</a>
+            <div class="dropdown-content">
+                <a href="actividad1_marketing.html">ACTIVIDAD 1: IDEA DE NEGOCIO Y PROMOTORES.</a>
+                <a href="actividad2_marketing.html">ACTIVIDAD 2: ANÁLISIS DEL ENTORNO.</a>
+                <a href="actividad3_marketing.html">ACTIVIDAD 3: ANÁLISIS DAFO.</a>
+                <a href="actividad4_marketing.html">ACTIVIDAD 4: EL MARKETING ESTRATÉGICO.</a>
+                <a href="actividad5_marketing.html">ACTIVIDAD 5: POLÍTICA DE PRODUCTO.</a>
+                <a href="actividad6_marketing.html">ACTIVIDAD 6: POLÍTICA DE PRECIOS.</a>
+                <a href="actividad7_marketing.html">ACTIVIDAD 7: POLÍTICA DE DISTRIBUCIÓN.</a>
+                <a href="actividad8_marketing.html">ACTIVIDAD 8: POLÍTICA DE COMUNICACIÓN.</a>
+                <a href="actividad_final_marketing.html">ACTIVIDAD FINAL: NOS EVALUAMOS.</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <h2>Precios de productos y servicios</h2>
+        <table>
+            <tr>
+                <td>
+                    <strong>Cursos Online</strong><br>
+                    -Curso básico ("Ciberseguridad para Todos"): 30 €<br>
+                    -Curso intermedio ("Avanza Seguro"): 60 €<br>
+                    -Curso avanzado ("CiberPro"): 120 €<br>
+                    -Suscripción premium (acceso a todos los cursos): 25 €/mes.
+                </td>
+                <td>
+                    <strong>Talleres Presenciales</strong><br>
+                    Taller para empresas ("Seguridad Corporativa"):<br>
+                        -Precio por sesión (4 horas): 300 € (hasta 10 participantes).<br>
+                        -Precio por participante adicional: 30 €.
+                </td>
+                <td>
+                    <strong>Consultoría Personalizada</strong><br>
+                    -Evaluación de riesgos para pequeñas empresas: 150 €/evaluación básica.<br>
+                    -Asesoramiento individual: 50 €/hora.
+                </td>
+            </tr>
+        </table>
+        <h2>Condiciones de pago y Descuentos</h2>
+        <table>
+            <tr>
+                <td>
+                    <strong>Condiciones de Pago</strong><br>
+                    -Clientes recurrentes: 10% de descuento en el segundo curso que adquieran.<br>
+                    -Grupos: 15% de descuento para grupos de más de 5 personas en cursos online.<br>
+                    -Estudiantes y desempleados: 20% de descuento con acreditación.<br>
+                    -Promociones especiales: Ofertas temporales en fechas clave (Black Friday, inicio de año, inicios de Curso, etc.).
+                </td>
+                <td>
+                    <strong>Descuentos</strong><br>
+                    Taller para empresas ("Seguridad Corporativa"):<br>
+                        -Precio por sesión (4 horas): 300 € (hasta 10 participantes).<br>
+                        -Precio por participante adicional: 30 €.
+                </td>
+            </tr>
+        </table>
+        <h2>Estrategia de Precios</h2>
+        <table>
+            <tr>
+                <td>
+                    <strong>Precios competitivos</strong><br>
+                    -Al principio optamos por una estrategia de precios inferior a la competencia Online sin perjuicio de la calidad para atraer clientela.
+                </td>
+                <td>
+                    <strong>Precios diferenciados:</strong><br>
+                    -Los talleres presenciales y la consultoría son más elevados pero es personalizado y exclusivo.
+                </td>
+                <td>
+                    <strong>El porqué de estos precios</strong><br>
+                    -Al principio tenemos que captar clientela y, una vez conocidos y construida una base de confianza, elevar los precios dentro de la lógica.
+                    -Los servicios más especializados o personalizados tiene un precio más elevado para reflejar su valor añadido.
+                </td>
+            </tr>
+        </table>
+        <h2>Comparación con la Competencia</h2>
+        <table><thead><tr><th>Producto/Servicio</th><th><strong>Nosotros</strong></th><th><strong>Competencia</strong></th></tr></thead><tbody><tr><td>Curso básico online</td><td>30 €</td><td>40-50 € (Udemy)</td></tr><tr><td>Curso intermedio online</td><td>60 €</td><td>70-90 € (Coursera)</td></tr><tr><td>Curso avanzado online</td><td>120 €</td><td>150 € (Plataformas especializadas)</td></tr><tr><td>Taller presencial (4h, 10 pers.)</td><td>300 €</td><td>200-500 € (consultoras locales)</td></tr><tr><td>Consultoría personalizada</td><td>150 €/evaluación</td><td>200-400 € (consultoras locales)</td></tr></tbody></table>
+        <h2>Relación de precio Coste/Venta</h2>
+        <table>
+            <tr>
+                <td>
+                    <strong>Cursos Online</strong><br>
+                    -El coste de los cursos Online que constan de una investigación, aprendizaje más la creación de contenido puede llegar (de forma rápida y generalizada) a las 500€/Curso incluyendo gastos derivados como Luz, dispositivos como micros, cámara,...<br>
+                    -El coste por cliente es bajo ya que las licencias de plataformas y soporte técnico puede ser de unos 7€/Cliente.<br>
+                    -El precio del curso básico son 30€ lo cual cubre de sobra los costes por cliente y, a partir de cierta cantidad de clientes por curso, las ganancias son amplias.
+                </td>
+                <td>
+                    <strong>Talleres Presenciales</strong><br>
+                    En el caso de los talleres, como es obvio, es más caro, además del alquiler, luz,... hay que contar con las horas del instructor (en mi caso) y material impreso. Esto, contando que el curso sea de unas 4 horas, puede suponer unos gastos de 130€.<br>
+                    Como el precio del curso presencial es de unos 300€ genera un margen aceptable.
+                </td>
+                <td>
+                    <strong>Consultoría Personalizada</strong><br>
+                    Esta atención puede ser online o presencial. Y con un coste similar a los talleres presenciales. Pero con un precio de 150€ por evaluación básica permite cubrir los costes y obtener beneficios.
+                </td>
+            </tr>
+        </table>
+        <h2>Comparación con la Competencia</h2>
+        <table><thead><tr><th>Producto/Servicio</th><th><strong>Nosotros</strong></th><th><strong>Competencia</strong></th></tr></thead><tbody><tr><td>Curso básico online</td><td>30 €</td><td>40-50 € (Udemy)</td></tr><tr><td>Curso intermedio online</td><td>60 €</td><td>70-90 € (Coursera)</td></tr><tr><td>Curso avanzado online</td><td>120 €</td><td>150 € (Plataformas especializadas)</td></tr><tr><td>Taller presencial (4h, 10 pers.)</td><td>300 €</td><td>200-500 € (consultoras locales)</td></tr><tr><td>Consultoría personalizada</td><td>150 €/evaluación</td><td>200-400 € (consultoras locales)</td></tr></tbody></table>
+        <h2>Evaluación Final</h2>
+        <p>Al principio contaremos con unos precios muy competitivos para ganar y establecer una buena base de clientela que sea fiel y posteriormente, una vez bien asentados y con cierta publicidad, proceder a subir los precios de manera lógica, sin abusos.</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CyberEduca</p>
+    </footer>
+</body>
+</html>
